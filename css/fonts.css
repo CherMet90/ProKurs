@@ -1,0 +1,32 @@
+@font-face { 
+	font-family: 'RobotoBold'; 
+	src: url('../fonts/RobotoBold/RobotoBold.woff2') format('woff2'),
+	url('../fonts/RobotoBold/RobotoBold.woff') format('woff'), 
+	url('../fonts/RobotoBold/RobotoBold.ttf')  format('truetype'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+@font-face { 
+	font-family: 'RobotoRegular'; 
+	src: url('../fonts/RobotoRegular/RobotoRegular.woff2') format('woff2'),
+	url('../fonts/RobotoRegular/RobotoRegular.woff') format('woff'),
+	url('../fonts/RobotoRegular/RobotoRegular.ttf')  format('truetype'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+@font-face { 
+	font-family: 'CleanvertisingLight'; 
+	src: url('../fonts/CleanvertisingLight/CleanvertisingLight.woff2') format('woff2'),
+	url('../fonts/CleanvertisingLight/CleanvertisingLight.woff') format('woff'), 
+	url('../fonts/CleanvertisingLight/CleanvertisingLight.ttf')  format('truetype'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+@font-face { 
+	font-family: 'CleanvertisingBlack'; 
+	src: url('../fonts/CleanvertisingBlack/CleanvertisingBlack.woff2') format('woff2'),
+	url('../fonts/CleanvertisingBlack/CleanvertisingBlack.woff') format('woff'), 
+	url('../fonts/CleanvertisingBlack/CleanvertisingBlack.ttf')  format('truetype'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
