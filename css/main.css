@@ -76,6 +76,14 @@ header h2{
 	font-family: "CleanvertisingLight", sans-serif;
 	margin-bottom: 47px;
 }
+.discounts__tab-titles {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+}
 .discounts__tab-titles--item {
 	font-size: 16px;
 	color: #fff;
@@ -90,13 +98,14 @@ header h2{
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
+	padding: 0 1.2vw;
 }
 .discounts__tab-titles--item:nth-child(1) {
-	width: 208px;
+/*	width: 208px;*/
 	height: 55px;
 }
 .discounts__tab-titles--item:nth-child(2) {
-	width: 265px;
+/*	width: 265px;*/
 	height: 55px;
 }
 .discounts__tab-titles--item.active {
