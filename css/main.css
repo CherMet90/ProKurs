@@ -117,6 +117,16 @@ header h2{
 	max-width: 585px;
 	padding: 25px;
 	background-color: rgba(255,255,255,0.6);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
 }
 .discounts__content--wrap:not(:first-child) {
 	display: none;
@@ -157,4 +167,24 @@ header h2{
 	margin-right: 15px;
 	width: 32px;
 	justify-content: center;
+}
+.discounts__content input[type=button] {
+	-ms-align-self: flex-end;
+	align-self: flex-end;
+	max-width: 220px;
+	height: 47px;
+	background-color: #9b1717;
+	border: none;
+	font-size: 16px;
+	color: rgb(255,255,255);
+	font-family: "RobotoBold";
+	border-radius: 3px;
+	padding: 0 2.2vw;
+	cursor: pointer;
+}
+.discounts__content input[type=button]:hover {
+	background-color: #e03838;
+}
+.discounts__content input[type=button]:active {
+	background-color: #420a0a;
 }
