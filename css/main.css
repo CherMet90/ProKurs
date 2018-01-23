@@ -89,7 +89,7 @@ header h2{
 	color: #fff;
 	font-family: "RobotoBold", sans-serif;
 	text-transform: uppercase;
-	background-color: rgb(255,255,255,0.25);
+	background-color: rgba(255,255,255,0.25);
 	display: -webkit-inline-flex;
 	display: -moz-inline-flex;
 	display: -ms-inline-flex;
@@ -99,6 +99,7 @@ header h2{
 	-ms-align-items: center;
 	align-items: center;
 	padding: 0 1.2vw;
+	cursor: pointer;
 }
 .discounts__tab-titles--item:nth-child(1) {
 /*	width: 208px;*/
@@ -110,12 +111,12 @@ header h2{
 }
 .discounts__tab-titles--item.active {
 	color: rgb(0,0,0);
-	background-color: rgb(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.6);
 }
 .discounts__content {
 	max-width: 585px;
 	padding: 25px;
-	background-color: rgb(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.6);
 }
 .discounts__content--wrap:not(:first-child) {
 	display: none;
