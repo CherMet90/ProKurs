@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .discounts__tab-titles--item {
+  	font-size: 4vw;
+  }
+}
+@media screen and (min-width: 806px) and (max-width: 1097px) {
+	.teaser__item {
+		width: 50%;
+		justify-content: center;
+	}
+}

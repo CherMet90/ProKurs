@@ -1,21 +1,6 @@
-// alert ('jQuery подключен и отлично работает!');
 $(function() {
 
-	// heightAlignment(".discounts__content--wrap");
-
-	if ($(window).width()<369) {
-		$(".discounts__tab-titles--item").css('font-size', '4vw');
-	};
-
 	$(window).resize(function(){
-		switch (true) {
-			case ($(window).width()<369):
-				$(".discounts__tab-titles--item").css('font-size', '4vw');
-				break;
-			case ($(window).width()>=369):
-				$(".discounts__tab-titles--item").css('font-size', '16px');
-				break;
-		};
 		heightAlignment(".discounts__content--wrap");
 	});
 
