@@ -2,59 +2,9 @@
   .discounts__tab-titles--item {
   	font-size: 4vw;
   }
-  /*.teasers {
-  	padding-right: 0;
-  }*/
 }
-/*@media screen and (max-width: 1300px) {
-	.teasers {
-		padding: 0;
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-		justify-content: space-around;
-		max-width: none;
-	}
-}*/
-/*@media screen and (min-width: 806px) and (max-width: 1280px) {
-	.teaser__item {
-		width: 50%;
-	}
-	.teaser__item:nth-last-child(1),
-	.teaser__item:nth-last-child(2) {
-		justify-content: flex-end;
-	}
-}*/
-/*@media screen and (max-width: 725px) {
-  .teasers {
-  	-webkit-flex-wrap: nowrap;
-  	-moz-flex-wrap: nowrap;
-  	-ms-flex-wrap: nowrap;
-  	-o-flex-wrap: nowrap;
-  	flex-wrap: nowrap;
-  	-webkit-flex-direction: column;
-  	-moz-flex-direction: column;
-  	-ms-flex-direction: column;
-  	-o-flex-direction: column;
-  	flex-direction: column;
-  	-ms-align-items: flex-start;
-  	align-items: flex-start;
-  }
-}
-/*@media screen and (min-width: 725px) and (max-width: 806px) {
-	.teasers {
-		padding: 0 10vw;
+@media screen and (max-width: 500px) {
+	.benefits__title {
+		font-size: 31px;
 	}
 }
-@media screen and (max-width: 363px) {
-	.teaser__item:nth-child(4) {
-		-ms-align-items: center;
-		align-items: center;
-	}
-	.teaser__item:nth-child(4) .item__drop_cap {
-		-ms-align-items: center;
-		align-items: center;
-	}
-}*/
