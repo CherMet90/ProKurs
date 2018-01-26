@@ -299,8 +299,11 @@ div.item__drop_cap {
 	box-sizing: border-box;
 }
 .benefits__title {
+	padding: 0;
+	margin: 0;
 	font-size: 50px;
 	color: rgb(0,52,105);
 	font-family: "CleanvertisingLight", sans-serif;
+	font-weight: normal;
 	text-align: center;
 }
