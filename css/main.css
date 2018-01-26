@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	margin: 0 auto;
+	cursor: default;
 }
 header {
 	box-sizing: border-box;
@@ -306,4 +307,34 @@ div.item__drop_cap {
 	font-family: "CleanvertisingLight", sans-serif;
 	font-weight: normal;
 	text-align: center;
+	margin-bottom: 50px;
+}
+.benefits__item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 30px 0;
+}
+.benefits__item--txt {
+	margin-left: 2.1vw;
+}
+.benefits__item--txt h3 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgb(155,24,24);
+	font-family: "RobotoRegular", sans-serif;
+}
+.benefits__item--txt p {
+	padding: 0;
+	margin: 0;
+	font-family: "RobotoRegular", sans-serif;
+	color: #333333;
+}
+.benefits__item img {
+	width: 6.3vw;
+	height: 6.3vw;
 }
