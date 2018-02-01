@@ -296,7 +296,7 @@ div.item__drop_cap {
 .benefits {
 	max-width: 1600px;
 	margin: auto;
-	padding: 4.1vw 14.4vw;
+	padding: 4.1vw 0;
 	box-sizing: border-box;
 }
 .benefits__title {
@@ -307,7 +307,26 @@ div.item__drop_cap {
 	font-family: "CleanvertisingLight", sans-serif;
 	font-weight: normal;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 3.1vw;
+}
+.benefits__body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.benefits__items--wrap {
+	max-width: 730px;
+	margin: 0 15px;
 }
 .benefits__item {
 	display: -webkit-flex;
@@ -316,9 +335,18 @@ div.item__drop_cap {
 	display: -o-flex;
 	display: flex;
 	margin: 30px 0;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 .benefits__item--txt {
 	margin-left: 2.1vw;
+	max-width: 570px;
 }
 .benefits__item--txt h3 {
 	padding: 0;
@@ -335,6 +363,74 @@ div.item__drop_cap {
 	color: #333333;
 }
 .benefits__item img {
-	width: 6.3vw;
-	height: 6.3vw;
+	max-width: 100px;
+	max-height: 100px;
+}
+form {
+	background-color: #f7f7f7;
+	box-sizing: border-box;
+	padding: 35px 30px 50px;
+	border: #67bc5c solid 5px;
+	border-radius: 5px;
+	margin: 30px 15px 0;
+}
+form .form__title {
+	font-weight: bold;
+	font-size: 22px;
+	color: rgb(68,68,68);
+	font-family: "RobotoRegular", sans-serif;
+	text-align: center;
+}
+form .label__title {
+	font-size: 14px;
+	color: rgb(102,102,102);
+	font-family: "RobotoRegular", sans-serif;
+	margin: 17px 5px 9px;
+}
+form input[type=text] {
+	text-indent: 15px;
+}
+form input[type=text]:focus {
+	box-shadow: #67bc5c 0 0 0 3px;
+	border-radius: 3px;
+}
+select[name=city] {
+	text-indent: 6px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image: url(../img/arrow--select.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+form input[type=text],
+select[name=city] {
+	width: 100%;
+	font-size: 20px;
+	line-height: 42px;
+	color: rgb(102,102,102);
+	font-family: "RobotoRegular", sans-serif;
+	border: solid 1px #e1e1e1;
+	box-shadow:  0 0 21px rgba(0,0,0,.06) inset;
+	height: 42px;
+}
+form button {
+	height: 47px;
+	background-color: #67bc5c;
+	border: none;
+	font-size: 16px;
+	color: rgb(255,255,255);
+	font-family: "RobotoBold", sans-serif;
+	border-radius: 3px;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-top: 35px;
+}
+form button:hover {
+	box-shadow: 0 0 10px 3px rgba(134,204,126,0.5);
+}
+form button:active {
+	background-color: #4ba341;
 }
