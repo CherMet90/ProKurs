@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8" />
 	<title>ProKurs - Курсы повышения знаний в Москве и Караганде</title>
 	<meta name="description" content="Каждый в своей жизни попадает в ситуацию, когда карьера остановилась на месте, либо необходимо сменить сферу деятельности. В зависимости от цели Вам необходимо либо повысить Вашу текущую квалификацию, либо освоить новую профессию.">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-
-	<script src="libs/jquery-3.2.1.min.js"></script>
-	<script src="js/common.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 </head>
 <body>
@@ -130,7 +128,7 @@
 					</div>
 				</div>
 			</div>
-			<form>
+			<form class="d-inline-flex flex-column">
 				<div class="form__title">СВЯЗАТЬСЯ С НАМИ</div>
 				<label>
 					<div class="label__title">Ваше имя:</div>
@@ -151,5 +149,49 @@
 			</form>
 		</div>
 	</section>
+	<section class="feedback">
+		<div class="feedback__body d-flex flex-column align-items-center">
+			<div class="feedback__body--title">Отзывы наших учеников</div>
+			<div id="feedbackCarousel" class="carousel slide d-flex justify-content-center" data-ride="carousel" data-interval="false">
+				<div class="carousel-inner w-75" role="listbox">
+					<div class="carousel-item align-items-center flex-column active">
+						<img class="d-block img-fluid rounded-circle" src="img/_avatar180.jpg" alt="отзыв">
+						<div class="feedback__carousel--caption d-flex flex-column align-items-center">
+							<span>Алексей</span>
+							<img src="img/separator.jpg" alt="">
+							<p class="feedback__caption--text">Отличные курсы! Очень помогли! Решил поменять сферу деятельности. Всегда хотел работать в сфере IT, но соответствующего образования у меня нет. Нашел этот сайт в интернете, прошел курсы по языку программирования C# и смог найти новую работу! Меня взяли разработчиком, где я сейчас и работаю.</p>
+						</div>
+					</div>
+					<div class="carousel-item align-items-center flex-column">
+						<img class="d-block img-fluid rounded-circle" src="img/412698_22.thsq.jpg" alt="отзыв">
+						<div class="feedback__carousel--caption d-flex flex-column align-items-center">
+							<span>Александр</span>
+							<img src="img/separator.jpg" alt="">
+							<p class="feedback__caption--text">ProKurs оказался очень полезным сайтом. Мне понадобилось получить специальность дефектоскописта на работе, оказалось, что в Караганде это можно сделать с помощью Prokurs. По любым курсам есть подробная информация и даже выбор. Специалисты по обучению работают грамотно, сертифакат Prokurs у нас в Караганде котируется. В итоге отучился и получил желаемую должность.</p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev hidden-xs-down" href="#feedbackCarousel" role="button" data-slide="prev">
+					<img src="img/carousel__arrow--left.png" alt="">
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next hidden-xs-down" href="#feedbackCarousel" role="button" data-slide="next">
+					<img src="img/carousel__arrow--right.png" alt="">
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<div class="feedback__footer d-block text-center">
+			<div class="feedback__footer--title">Повышение знаний с ProKurs — это оптимальное сочетание интенсива и углубленного подхода.</div>
+			<button class="feedback__footer--button">Отправить заявку</button>
+		</div>
+	</section>
+
+	<script src="libs/jquery-3.2.1.min.js"></script>
+	<script src="libs/parally.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="js/common.js"></script>
+
 </body>
 </html>
