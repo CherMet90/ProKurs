@@ -448,11 +448,12 @@ form button:active {
 .feedback__body {
 	background-image: url(../img/feedback.jpg);
 	box-sizing: border-box;
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 65px 0;
+	background-color: #8b161b;
 }
 .feedback__body--title {
 	font-size: 50px;
@@ -468,6 +469,7 @@ form button:active {
     height: 165px;
     border: 10px solid #6a6a6a;
     box-sizing: content-box;
+    box-shadow: -5px 10px 20px rgba(0,0,0,0.3);
 }
 .feedback__carousel--caption>span {
 	font-size: 22px;
@@ -518,10 +520,43 @@ form button:active {
 	width: 220px;
 	margin: auto;
 	margin-top: 35px;
+	box-shadow: -5px 10px 20px rgba(0,0,0,0.3);
 }
 .feedback__footer--button:hover {
 	box-shadow: 0 0 10px 3px rgba(255,255,255,0.5);
 }
 .feedback__footer--button:active {
 	background-color: #cccccc;
+}
+.map__title>span {
+	font-size: 50px;
+	color: rgb(17,17,17);
+	font-family: "CleanvertisingLight";
+	margin-right: 15px;
+}
+.map__tabs {
+	margin-left: 15px;
+	border: #9b1818 5px solid;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.maps__tabs--item {
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 37px;
+	color: rgb(109,10,10);
+	font-family: "RobotoBold";
+	height: 37px;
+	width: 217px;
+}
+.maps__tabs--item.active {
+	color: #fff;
+	background-color: #9b1818;
+}
+.map__window {
+	max-width: 1600px;
+	margin: auto;
+}
+.map__window--item:not(:first-child) {
+	display: none;
 }

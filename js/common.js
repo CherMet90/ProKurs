@@ -18,6 +18,11 @@ $(function() {
 		$(".discounts__content--wrap").hide().eq($(this).index()).fadeIn();
 	}).eq(0).addClass("active");
 
+	$(".maps__tabs--item").click(function() {
+		$(".maps__tabs--item").removeClass("active").eq($(this).index()).addClass("active");
+		$(".map__window--item").hide().eq($(this).index()).fadeIn();
+	}).eq(0).addClass("active");
+
 	$(".carousel-control-prev").click(function() {
 		heightAlignment(".carousel-item");
 		$('.feedback__body').parally();
