@@ -164,9 +164,12 @@ header h2{
 	-ms-align-items: center;
 	align-items: center;
 	margin-right: 15px;
-	width: 32px;
+	min-width: 32px;
 	justify-content: center;
 }
+/*.discounts__content--row span {
+	display: block;
+}*/
 .discounts__content input[type=button] {
 	-ms-align-self: flex-end;
 	align-self: flex-end;
