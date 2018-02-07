@@ -21,6 +21,12 @@ $(function() {
 	$(".maps__tabs--item").click(function() {
 		$(".maps__tabs--item").removeClass("active").eq($(this).index()).addClass("active");
 		$(".map__window--item").hide().eq($(this).index()).fadeIn();
+		$(".map__title--address").hide().eq($(this).index()).fadeIn();
+	}).eq(0).addClass("active");
+
+	$(".footer__address .tab").click(function() {
+		$(".footer__address .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".footer__address .address__phone .tab-item").hide().eq($(this).index()).fadeIn();
 	}).eq(0).addClass("active");
 
 	$(".carousel-control-prev").click(function() {

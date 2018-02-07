@@ -528,14 +528,19 @@ form button:active {
 .feedback__footer--button:active {
 	background-color: #cccccc;
 }
-.map__title>span {
+.map__title {
+	margin: 35px 0;
+}
+.map__title>h2 {
+	margin: 0;
+	padding: 0;
 	font-size: 50px;
 	color: rgb(17,17,17);
 	font-family: "CleanvertisingLight";
-	margin-right: 15px;
+	margin-right: 0.9vw;
 }
 .map__tabs {
-	margin-left: 15px;
+	margin-left: 0.9vw;
 	border: #9b1818 5px solid;
 	border-radius: 3px;
 	cursor: pointer;
@@ -547,7 +552,7 @@ form button:active {
 	color: rgb(109,10,10);
 	font-family: "RobotoBold";
 	height: 37px;
-	width: 217px;
+	padding: 0 4.1vw;
 }
 .maps__tabs--item.active {
 	color: #fff;
@@ -559,4 +564,66 @@ form button:active {
 }
 .map__window--item:not(:first-child) {
 	display: none;
+}
+.map__title--address:not(:first-child) {
+	display: none;
+}
+.map__window--wrap {
+	margin: 15px 0;
+}
+.map__title--address {
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(51,51,51);
+	font-family: "RobotoRegular";
+}
+footer {
+	padding-top: 90px;
+	padding-bottom: 190px;
+}
+footer h2 {
+	font-size: 50px;
+	line-height: 56px;
+	color: rgb(0,0,0);
+	font-family: "CleanvertisingLight";
+}
+.footer__txt {
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(51,51,51);
+	font-family: "RobotoRegular";
+	margin: 45px 0;
+}
+.footer__address .address__city,
+.footer__address .address__phone {
+	color: rgb(155,24,24);
+	font-family: "RobotoRegular";
+}
+.footer__address .address__phone {
+	font-size: 32px;
+
+}
+footer button {
+	height: 47px;
+	background-color: #9b1818;
+	border: none;
+	font-size: 16px;
+	margin-top: 45px;
+	color: rgb(255,255,255);
+	font-family: "RobotoBold", sans-serif;
+	border-radius: 3px;
+	cursor: pointer;
+	text-transform: uppercase;
+	width: 220px;
+	background: radial-gradient(farthest-side ellipse at top right, #c71e1e, #9b1717);
+	box-shadow: -5px 10px 20px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+footer button:hover {
+	box-shadow: 0 0 10px 3px rgba(155,24,24,0.5);
+}
+footer button:active {
+	background: none;
+	box-shadow: none;
+	background-color: #701111;
 }
