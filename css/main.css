@@ -167,9 +167,6 @@ header h2{
 	min-width: 32px;
 	justify-content: center;
 }
-/*.discounts__content--row span {
-	display: block;
-}*/
 .discounts__content input[type=button] {
 	-ms-align-self: flex-end;
 	align-self: flex-end;
@@ -459,6 +456,8 @@ form button:active {
 	background-color: #8b161b;
 }
 .feedback__body--title {
+	padding: 0;
+	margin: 0;
 	font-size: 50px;
 	color: rgb(255,255,255);
 	font-family: "CleanvertisingLight", sans-serif;
