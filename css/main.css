@@ -69,6 +69,7 @@ header h1{
 	color: rgb(255,255,255);
 	font-family: "RobotoRegular", sans-serif;
 	font-weight: bold;
+	margin-bottom: 15px;
 }
 header h2{
 	padding: 0;
@@ -77,6 +78,7 @@ header h2{
 	color: #ffffff;
 	font-family: "CleanvertisingLight", sans-serif;
 	margin-bottom: 47px;
+	margin-top: 15px;
 }
 .discounts__tab-titles {
 	display: -webkit-flex;
@@ -567,11 +569,15 @@ form button:active {
 .map__window--item:not(:first-child) {
 	display: none;
 }
+.title__address--wrap {
+	margin-top: 15px;
+}
 .map__title--address:not(:first-child) {
 	display: none;
 }
 .map__window--wrap {
 	margin: 15px 0;
+	background-color: #e1d5af;
 }
 .map__title--address {
 	font-size: 18px;

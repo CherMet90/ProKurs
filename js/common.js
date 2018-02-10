@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
 
 	$(window).resize(function(){
 		heightAlignment(".discounts__content--wrap");
