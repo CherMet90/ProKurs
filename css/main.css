@@ -3,6 +3,15 @@ body {
 	margin: 0 auto;
 	cursor: default;
 }
+.modal-dialog-centered {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: calc(100% - (30px * 2));
+}
 header {
 	box-sizing: border-box;
 	background-image: url('../img/header.jpg');
@@ -169,7 +178,7 @@ header h2{
 	min-width: 32px;
 	justify-content: center;
 }
-.discounts__content input[type=button] {
+.discounts__content>button {
 	-ms-align-self: flex-end;
 	align-self: flex-end;
 	max-width: 220px;
@@ -181,13 +190,13 @@ header h2{
 	color: rgb(255,255,255);
 	font-family: "RobotoBold", sans-serif;
 	border-radius: 3px;
-	padding: 0 2.2vw;
+	padding: 0 1.9vw;
 	cursor: pointer;
 }
-.discounts__content input[type=button]:hover {
+.discounts__content>button:hover {
 	box-shadow: 0 0 10px 3px rgba(255,255,255,0.5);
 }
-.discounts__content input[type=button]:active {
+.discounts__content>button:active {
 	background: none;
 	box-shadow: none;
 	background-color: #701111;
@@ -374,9 +383,9 @@ form {
 	padding: 35px 30px 50px;
 	border: #67bc5c solid 5px;
 	border-radius: 5px;
-	margin: 30px 15px 0;
+	margin: 0 15px;
 }
-form .form__title {
+.form__title {
 	font-weight: bold;
 	font-size: 22px;
 	color: rgb(68,68,68);

@@ -17,6 +17,40 @@
 
 </head>
 <body>
+	<div class="modal fade" id="call-back">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="form__title modal-header justify-content-right flex-nowrap">
+					<div class="w-100">СВЯЗАТЬСЯ С НАМИ</div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="d-flex flex-column">
+						<label>
+							<span class="label__title">Ваше имя:</span>
+							<input type="text" name="name" required>
+						</label>
+						<label>
+							<span class="label__title">Ваш телефон:</span>
+							<input type="text" name="phone" required>
+						</label>
+						<label>
+							<span class="label__title">Ваш город:</span>
+							<select name="city">
+								<option>Москва</option>
+								<option>Караганда</option>
+							</select>
+						</label>
+						<button>Отправить заявку</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<header>
 		<div class="header__top-line">
 			<div class="top-line__logo">
@@ -63,7 +97,7 @@
 						<div class="img-wrap"><img src="img/globe.png" alt="Жизнь за рубежом"></div><span>3–5% на стоимость визы в любую страну мира.</span>
 					</div>
 				</div>
-				<input type="button" value="НАЧАТЬ ОБУЧЕНИЕ">
+				<button class="d-inline-block text-center" data-toggle="modal" data-target="#call-back">НАЧАТЬ ОБУЧЕНИЕ</button>
 			</div>
 		</div>
 	</header>
@@ -187,7 +221,7 @@
 		</div>
 		<div class="feedback__footer d-block text-center">
 			<div class="feedback__footer--title">Повышение знаний с ProKurs — это оптимальное сочетание интенсива и углубленного подхода.</div>
-			<button class="feedback__footer--button">Отправить заявку</button>
+			<button class="feedback__footer--button" data-toggle="modal" data-target="#call-back">Отправить заявку</button>
 		</div>
 	</section>
 	<section class="map">
@@ -226,7 +260,7 @@
 				<div class="tab-item">+7 (777) 777-77-77</div>
 			</div>
 		</div>
-		<button>Заказать звонок</button>
+		<button data-toggle="modal" data-target="#call-back">Заказать звонок</button>
 	</footer>
 	
 	<script src="libs/jquery-3.2.1.min.js"></script>
